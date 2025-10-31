@@ -34,5 +34,26 @@ Dataset cointains the following columns:
 * BMI: Body Mass Index, calculated from height and weight.
 
 ## Business Requirements
+* Understand the key factors that influence individual fitness levels.
+* Segment gym members into fitness categories to guide tailored workout plans.
+* Use machine learning to automate fitness classification based on physiological and activity data.
+* Provide actionable insights for coaches, trainers, and business stakeholders.
+* Communicate results clearly using visualizations and dashboards.
 
+## Hypothesis
+H1. Higher session duration leads to more calories burned.
+Evidence: Strong positive correlation (~0.91) between Session_Duration and Calories_Burned in the correlation heatmap. Clear linear upward trend in the pairplot between these two variables.
+
+H2. More experienced individuals tend to burn more calories.
+Evidence: Positive correlation between Experience_Level and Calories_Burned (~0.69). Boxplot shows increasing median calories burned from level 1 → 3.
+
+H3. Water intake is negatively correlated with fat percentage and positively linked with higher fitness level.
+Evidence: Heatmap shows negative correlation (~-0.59) between Water_Intake and Fat_Percentage. 
+Bubble plot shows more blue (high fitness) points clustering in higher hydration & lower fat% region.
+
+H4. Workout frequency is a strong predictor of fitness level.
+Evidence: High positive correlation (~0.84) between Workout_Frequency and Experience_Level, and moderate with Calories_Burned (~0.58). High workout frequency aligns with higher fitness (visible in categorical plots).
+
+H5. Age has little to no impact on calories burned.
+Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15). Scatter plot (Age vs Calories Burned) shows no visible trend — points are scattered uniformly.
 
