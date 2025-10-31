@@ -3,7 +3,7 @@
 # <div align="center"> Fitness Patterns and Performance Analysis </div>
 
 <p align="center">
-  <img src="gettyimages-814346208-612x612.jpeg" width="400">
+  <img src="gettyimages-814346208-612x612.jpg" width="400">
 </p>
 
 ## Template Instructions
