@@ -6,24 +6,15 @@
   <img src="gettyimages-814346208-612x612.jpg" width="400">
 </p>
 
-## Template Instructions
+## Content
+* [Readme.md](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/blob/b1a86de8fa919e84500b3dfa300965f3f84f622a/README.md)
+* [Kanban Project Board](https://github.com/users/YShutko/projects/5)
+* [Datasets](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/data) original and cleaned
+* [Jupyter Notebook](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/b1a86de8fa919e84500b3dfa300965f3f84f622a/jupyter_notebooks)
+* [ML model](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/model)
+*[Plots]()
 
-Welcome,
-
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
-
-## How to use this repo
-
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
-
-1. Copy the URL of your repository to your clipboard.
-
-1. In VS Code, select **File** -> **Open Folder**.
-
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
-
+## How to ugi
 1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
 
 1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
