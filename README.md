@@ -57,3 +57,15 @@ Evidence: High positive correlation (~0.84) between Workout_Frequency and Experi
 H5. Age has little to no impact on calories burned.
 Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15). Scatter plot (Age vs Calories Burned) shows no visible trend — points are scattered uniformly.
 
+## Project Plan
+* Data inspection & cleaning: preparing categorical and numerical features for analysis.
+* Descriptive statistics  
+* Correlation heatmaps  
+* Pairplots  
+* Fitness level distributions  
+* Other performance-related insights via plots  
+* Trained classification model predicting fitness level  
+* Evaluation metrics: Accuracy, Classification Report, Confusion Matrix  
+* Feature importance plot to highlight influential variables
+* Dashboards
+
