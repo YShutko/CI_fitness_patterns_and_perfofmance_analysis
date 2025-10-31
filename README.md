@@ -12,7 +12,7 @@
 * [Datasets](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/data) original and cleaned
 * [Jupyter Notebook](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/b1a86de8fa919e84500b3dfa300965f3f84f622a/jupyter_notebooks)
 * [ML model](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/model)
-*[Plots]()
+* [Plots]()
 
 ## Dataset Content
 In this project the "Gym Members Exercise Dataset" data set [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) is used. 
