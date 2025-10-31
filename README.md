@@ -63,7 +63,7 @@ Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15).
 * Correlation heatmaps  
 * Pairplots  
 * Fitness level distributions  
-* Other performance-related insights via plots  
+* Visualization: interactive and static plots to present insights clearly.
 * Trained classification model predicting fitness level  
 * Evaluation metrics: Accuracy, Classification Report, Confusion Matrix  
 * Feature importance plot to highlight influential variables
