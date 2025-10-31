@@ -14,56 +14,25 @@
 * [ML model](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/model)
 *[Plots]()
 
-## How to ugi
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+## Dataset Content
+In this project the "Gym Members Exercise Dataset" data set [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) is used. 
+Dataset cointains the following columns:
+* Age: Age of the gym member.
+* Gender: Gender of the gym member (Male or Female).
+* Weight (kg): Member’s weight in kilograms.
+* Height (m): Member’s height in meters.
+* Max_BPM: Maximum heart rate (beats per minute) during workout sessions.
+* Avg_BPM: Average heart rate during workout sessions.
+* Resting_BPM: Heart rate at rest before workout.
+* Session_Duration (hours): Duration of each workout session in hours.
+* Calories_Burned: Total calories burned during each session.
+* Workout_Type: Type of workout performed (e.g., Cardio, Strength, Yoga, HIIT).
+* Fat_Percentage: Body fat percentage of the member.
+* Water_Intake (liters): Daily water intake during workouts.
+* Workout_Frequency (days/week): Number of workout sessions per week.
+* Experience_Level: Level of experience, from beginner (1) to expert (3).
+* BMI: Body Mass Index, calculated from height and weight.
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+## Business Requirements
 
-1. In VS Code, select **File** > **Open Folder** again.
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
-
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
-
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
-
-1. Choose **Venv** from the dropdown list.
-
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
-
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
-
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
-
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
-
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
-
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
-
- ```console
- pip3 install -r requirements.txt
- ```
-
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
-
-1. Click the **kernel** button and choose **Python Environments**.
-
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
-
-```console
-! python --version
-```
-
-## Deployment Reminders
-
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
