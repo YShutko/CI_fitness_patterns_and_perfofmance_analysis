@@ -14,7 +14,7 @@
 * [ML model](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/model)
 * [Plots]()
 
-## Dataset Content
+## Dataset content
 In this project the "Gym Members Exercise Dataset" data set [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) is used. 
 Dataset cointains the following columns:
 * Age: Age of the gym member.
@@ -33,7 +33,7 @@ Dataset cointains the following columns:
 * Experience_Level: Level of experience, from beginner (1) to expert (3).
 * BMI: Body Mass Index, calculated from height and weight.
 
-## Business Requirements
+## Business requirements
 * Understand the key factors that influence individual fitness levels.
 * Segment gym members into fitness categories to guide tailored workout plans.
 * Use machine learning to automate fitness classification based on physiological and activity data.
@@ -57,7 +57,7 @@ Evidence: High positive correlation (~0.84) between Workout_Frequency and Experi
 H5. Age has little to no impact on calories burned.
 Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15). Scatter plot (Age vs Calories Burned) shows no visible trend — points are scattered uniformly.
 
-## Project Plan
+## Project plan
 * Data inspection & cleaning: preparing categorical and numerical features for analysis.
 * Descriptive statistics  
 * Correlation heatmaps  
@@ -87,3 +87,36 @@ To meet the business goal of classifying gym members' fitness levels and uncover
 * Age vs Calories Burned
     Business Need: Debunk performance myths and support all age groups.
     Visual Choice: Scatterplots and strip plots show that age has minimal influence, supporting inclusive workout strategies.
+
+## Dashboard design
+
+
+## Analysis techniques used
+* Visual Studio Code
+* Python
+* Jupyter notebook
+* ChatGPT
+* PowerBI
+
+## Ethical considerations
+The dataset is publicly available and contains no private data on individuals.
+This project emphasizes ethical AI principles by promoting fairness, transparency, and responsible use of data. All analyses and predictions are designed to support healthier lifestyle choices, not to judge or discriminate. Ensuring privacy, informed consent, and human oversight at every stage fosters trustworthy and accountable AI in the fitness domain.
+
+## Main Data Analysis Libraries
+* Pandas
+* Numpy
+* Plotly
+* Seabon
+* Matplotlib
+* Sklearn
+* PowerBI
+
+## Credits
+
+### Resources
+* [The Code Institute](https://codeinstitute.net/) Learning Management System
+* [VS Code](https://code.visualstudio.com/) was used to write the code
+* [ChatGPT](https://chatgpt.com/) was used to generate and debug code
+* [README](https://github.com/Code-Institute-Solutions/da-README-template) template
+* [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) data set was used for this project
+* [Logo Image](https://www.gettyimages.de/detail/foto/muscle-network-landscape-blue-lizenzfreies-bild/814346208?adppopup=true)
