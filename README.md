@@ -13,10 +13,11 @@
 * [Jupyter Notebook](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/b1a86de8fa919e84500b3dfa300965f3f84f622a/jupyter_notebooks)
 * [ML model](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/main/model)
 * [Plots](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/40ff0eac5bdbb7903dfc54b4ba788b51907d364f/plots)
+* [PowerBI Dashboards](https://github.com/YShutko/CI_fitness_patterns_and_perfofmance_analysis/tree/9553dc936809b3ccac384038d348137f792d159d/ms_powerBI_dashboards)
 
 ## Dataset content
-In this project the "Gym Members Exercise Dataset" data set [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) is used. 
-Dataset cointains the following columns:
+In this project, the "Gym Members Exercise Dataset" data set [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) is used. 
+The dataset contains the following columns:
 * Age: Age of the gym member.
 * Gender: Gender of the gym member (Male or Female).
 * Weight (kg): Member’s weight in kilograms.
@@ -47,15 +48,15 @@ Evidence: Strong positive correlation (~0.91) between Session_Duration and Calor
 H2. More experienced individuals tend to burn more calories.
 Evidence: Positive correlation between Experience_Level and Calories_Burned (~0.69). Boxplot shows increasing median calories burned from level 1 → 3.
 
-H3. Water intake is negatively correlated with fat percentage and positively linked with higher fitness level.
+H3. Water intake is negatively correlated with fat percentage and positively linked with a higher fitness level.
 Evidence: Heatmap shows negative correlation (~-0.59) between Water_Intake and Fat_Percentage. 
-Bubble plot shows more blue (high fitness) points clustering in higher hydration & lower fat% region.
+The bubble plot shows more blue (high fitness) points clustering in the higher hydration & lower fat% region.
 
 H4. Workout frequency is a strong predictor of fitness level.
 Evidence: High positive correlation (~0.84) between Workout_Frequency and Experience_Level, and moderate with Calories_Burned (~0.58). High workout frequency aligns with higher fitness (visible in categorical plots).
 
 H5. Age has little to no impact on calories burned.
-Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15). Scatter plot (Age vs Calories Burned) shows no visible trend — points are scattered uniformly.
+Evidence: Heatmap shows weak correlation between Age and Calories_Burned (-0.15). The scatter plot (Age vs Calories Burned) shows no visible trend — points are scattered uniformly.
 
 ## Project plan
 * Data inspection & cleaning: preparing categorical and numerical features for analysis.
@@ -64,7 +65,7 @@ Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15).
 * Pairplots  
 * Fitness level distributions  
 * Visualization: interactive and static plots to present insights clearly.
-* Trained classification model predicting fitness level  
+* Trained a classification model predicting fitness level  
 * Evaluation metrics: Accuracy, Classification Report, Confusion Matrix  
 * Feature importance plot to highlight influential variables
 * Dashboards
@@ -117,6 +118,7 @@ This project emphasizes ethical AI principles by promoting fairness, transparenc
 * [The Code Institute](https://codeinstitute.net/) Learning Management System
 * [VS Code](https://code.visualstudio.com/) was used to write the code
 * [ChatGPT](https://chatgpt.com/) was used to generate and debug code
+* [MS PowerBI](https://app.powerbi.com)
 * [README](https://github.com/Code-Institute-Solutions/da-README-template) template
 * [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset/data) data set was used for this project
 * [Logo Image](https://www.gettyimages.de/detail/foto/muscle-network-landscape-blue-lizenzfreies-bild/814346208?adppopup=true)
