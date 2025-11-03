@@ -69,3 +69,21 @@ Evidence:Heatmap shows weak correlation between Age and Calories_Burned (-0.15).
 * Feature importance plot to highlight influential variables
 * Dashboards
 
+## The rationale to map the business requirements
+To meet the business goal of classifying gym members' fitness levels and uncovering behavioral drivers behind high/low performance, each visualisation was carefully chosen to provide actionable insights for both operational teams (trainers, program managers) and strategic decision-makers.
+
+* Session Duration vs Calories Burned
+    Business Need: Identify what contributes to high calorie burn.
+    Visual Choice: Correlation plots and trend analysis show that longer session duration is a strong indicator of calorie output. This insight supports creating time-based training goals.
+* Experience Level vs Fitness Level / Calories Burned
+    Business Need: Understand the impact of training consistency and tenure.
+    Visual Choice: Categorical plots (e.g., boxplots, stacked bars) reveal how experience levels correlate with output, aiding coaching program refinement.
+* Water Intake vs Fat Percentage & Fitness
+    Business Need: Promote health tips that maximize results.
+    Visual Choice: Bubble plots and heatmaps highlight hydration’s effect on body composition—informing personalized nutrition plans.
+* Workout Frequency and Fitness Level
+    Business Need: Encourage consistent training routines.
+    Visual Choice: Bar plots and decomposition trees visualize how frequency drives results—supporting gamified loyalty or attendance programs.
+* Age vs Calories Burned
+    Business Need: Debunk performance myths and support all age groups.
+    Visual Choice: Scatterplots and strip plots show that age has minimal influence, supporting inclusive workout strategies.
