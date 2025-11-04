@@ -99,8 +99,20 @@ To meet the business goal of classifying gym members' fitness levels and uncover
 * PowerBI
 
 ## Ethical considerations
-The dataset is publicly available and contains no private data on individuals.
-This project emphasizes ethical AI principles by promoting fairness, transparency, and responsible use of data. All analyses and predictions are designed to support healthier lifestyle choices, not to judge or discriminate. Ensuring privacy, informed consent, and human oversight at every stage fosters trustworthy and accountable AI in the fitness domain.
+### Data Privacy & GDPR Compliance
+This project uses a publicly available, anonymized dataset. However, in real-world applications, General Data Protection Regulation (GDPR) must be respected. Personal identifiers (e.g., name, ID, location) are not present, which minimizes direct privacy risks.
+Any future use of real gym member data must:
+* Secure informed consent
+* Ensure data minimization
+* Allow right to access, correction, or deletion of personal data
+* Use secure data storage and access protocols
+### Social Implications
+Fitness classification models can impact user perception and behavior. If used in gym apps or fitness evaluations, they must avoid stigmatizing lower fitness levels. Recommendations derived from the model (e.g., "you need to hydrate more to lose fat") should be accompanied by medical disclaimers and not used to diagnose or prescribe. Misuse of model results could lead to unintended discrimination or pressure on certain demographic groups (e.g., older members).
+### Ethical Considerations
+* Fairness & Bias: The dataset may not represent all population groups equally. Imbalanced representation across genders, age groups, or fitness levels can lead to biased predictions. Continuous model evaluation and bias audits are essential.
+* Model Transparency: Random Forests were chosen for their high performance and interpretability, especially with feature importance to highlight which factors affect classification most.
+* Purposeful Use: The goal of this model is educational and analytical, not medical. 
+* It’s important to avoid overinterpretation of predictions, particularly when used outside the dataset’s context.
 
 ## Main Data Analysis Libraries
 * Pandas
