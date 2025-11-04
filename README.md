@@ -90,7 +90,45 @@ To meet the business goal of classifying gym members' fitness levels and uncover
     Visual Choice: Scatterplots and strip plots show that age has minimal influence, supporting inclusive workout strategies.
 
 ## Dashboard design
+The Power BI dashboard for the Fitness Patterns and Performance Analysis project consists of four interconnected report pages, each targeting key fitness metrics, behavioral patterns, and health outcomes. The layout was structured to ensure clarity, interactivity, and actionable insights for both technical and non-technical stakeholders.
+1. Member Fitness Overview
+This landing page gives a high-level view of key metrics:
+* KPI Cards: Display average Calories Burned, Session Duration, Avg BPM, and Workout Frequency.
+* Donut Chart: Visualizes Fitness Level Distribution (High vs Medium).
+* Line/Bar Charts: Show relationships between Age, Experience Level, and Calories Burned.
+* Slicers: Gender, Workout Type, and Age Group allow for targeted filtering.
+2. Fitness Drivers Analysis
+Focused on behavioral influences on performance:
+* Bar Charts: Explore how Experience Level correlates with Session Duration, Fitness level and Workout Frequency.
+* Decomposition tree: Show average session metrics segmented by Workout Type and Gender.
+* Slicers: Enable users to drill into Gender, Workout Frequency, and Fitness Level.
+3. Performance Segmentation
+This page uncovers performance trends by category:
+* Bar Chart: Show max Calories Burned across Workout Types.
+* Histogram: Distribution of Calories Burned and Session Duration.
+* Line Plot: Links Average BPM with Calories Burned.
+* Matrix Table: Maps Experience Level against Workout Types and Avg Calories.
+* Slicers: Gender, Water Intake, Workout Type enhance granularity.
+4. Health Metrics Correlation
+This analytical page highlights physiological patterns:
+* Bubble Plot: Fat Percentage by BMI and Gender.
+* Scatter Charts: Compare Age vs Calories Burned and Fat Percentage vs Experience Level.
+* Heatmap Table: Binned Water Intake vs Fat Percentage and Fitness Levels for segmentation.
 
+### Communicating Insights
+The dashboards is designed for broad accessibility:
+* Business Users: Smart Narratives, KPIs, and simplified visuals highlight trends and high performers at a glance.
+* Data Analysts: Detailed correlation charts, segmentation tables, and cross-filtering support hypothesis testing and deeper insights.
+* Dynamic Interaction: Slicers, drill-downs, and conditional formatting help users self-navigate based on their specific questions or user roles.
+
+### Design Principles
+The design emphasizes:
+* Clear segmentation between general trends (Page 1), behavioral patterns (Page 2), performance outliers (Page 3), and health insights (Page 4).
+* Progressive insight delivery, moving from descriptive (averages, distributions) to diagnostic and exploratory (correlations, segmentations).
+* Consistent color palettes, intuitive chart types, and tooltips across visuals.
+
+## Development Roadmap
+This project required careful handling of data preprocessing, particularly in deriving the target variable FitnessLevel from continuous data. Addressing class imbalance through upsampling helped improve model fairness but introduced a risk of overfitting. Selecting a suitable model like Random Forest balanced performance and interpretability, though deeper explainability methods could enhance transparency. Translating complex Python-based insights into Power BI dashboards required thoughtful adaptation to ensure clarity for both technical and non-technical audiences. Throughout, evolving hypotheses and time constraints highlighted the importance of iterative exploration, prioritization, and agile execution.
 
 ## Analysis techniques used
 * Visual Studio Code
